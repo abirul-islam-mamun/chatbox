@@ -10,8 +10,8 @@ $('.details-option').on('click',function(){
 
 
 
-
-// $('.details-option').on('click',function(){
-//     $('.details-option').removeClass('active');
-//     $(this).addClass('active')
-// })
+// chat list active
+$('.friend-list li').on('click',function(){
+    $('.friend-list li').removeClass('back-active');
+    $(this).addClass('back-active')
+})
